@@ -1,0 +1,95 @@
+body {
+    background-color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    /*font-family: 'Dancing Script', cursive;*/
+    color: aliceblue;
+    text-align: justify;
+}
+
+/* Para editar el tamaño de las imagenes 
+img{
+    width: 20px;
+    height: 20px;
+}
+*/
+
+/*Para modificar una sola imagen se tiene que llamar en el html con un class: class="NASA" */
+.NASA{
+    width: 320px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*Centrar la imagen*/
+.Astronauta{
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+}
+
+/*Titulo de ASTRONOMIA*/
+.astronomia{
+    font-size: 300%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-image: linear-gradient(to right, #ff00ff, #00ffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*Subtitulos de ESTRELLAS y MISIONES*/
+.title {
+    /*Efecto Neon*/
+    color: #ff00ff;
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+}
+
+/*Menu desplegable*/
+.menu-desplegable {
+    display: none;
+    list-style: none;
+  }
+  
+  .menu-desplegable li {
+    margin-bottom: 10px;
+  }
+  
+  .menu-btn {
+    background-color: #841c9e;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menu-btn:hover {
+    background-color: #333;
+  }
+  
+  .menu-btn:focus + .menu-desplegable {
+    display: block;
+  }
+
+
+.p-origen{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*
+selector{
+    propiedad : valor ;
+}
+*/
+
+/* Estilos para el pie de página */
+footer {
+    font-size: smaller;
+    background-color: #a793a8;
+    color: #030303;
+    text-align: center;
+    padding: 5px; 
+  }
+
+  /*********************ASTROBIOLOGIA*********************/
+

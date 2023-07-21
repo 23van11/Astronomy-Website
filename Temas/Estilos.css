@@ -1,0 +1,779 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: aliceblue;
+}
+
+.th3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 250%;
+  color: #003366; /* Un tono más oscuro de azul */
+  text-shadow: 2px 2px 4px #fff;
+}
+
+.astrobiologia_t {
+    background-color: sienna;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.origen {
+    /* Ajusta la URL de la imagen y otros estilos según tus preferencias */
+    background-image: url('https://ichef.bbci.co.uk/news/640/cpsprodpb/71AC/production/_116600192_gettyimages-1211293811.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija la imagen al fondo para que no se desplace con el scroll */
+    background-color: rgba(99, 83, 83, 0); /* El último valor (0.5) determina la transparencia */
+    opacity: 1;
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: #030303;
+  }
+
+.astrobiologia {
+    font-family: fantasy;
+    text-align: center;
+    text-decoration: darkmagenta;
+    font-size: 200%;
+}
+
+.origen-universo {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: #00ccff;
+    text-shadow: 0 0 5px #0011ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+}
+
+.sistema {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: #002fff;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.agujeros {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: #00FFFF;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.t-agujeros {
+  text-align: right;
+}
+
+.marte {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    background: linear-gradient(to right, #ffbb00, #ffee00);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.vía_láctea {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: darkmagenta;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.sol {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: #ffee00;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.inicio_del_universo {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: #ff0077;
+    text-shadow: 0 0 5px #0011ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.universo_del_hubble {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: #DA70D6;
+    text-shadow: 2px 2px 2px rgba(0, 242, 250, 0.5);
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.exoplanetas {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    position: relative;
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.exoplanetas {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #00ccff;
+  /* Propiedades 3D */
+  transform-style: preserve-3d;
+  transform: translateZ(40px);
+  /* Sombra para resaltar el efecto 3D */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.júpiter {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: #142bff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+    font-size: 4rem;
+    font-weight: bold;
+    /* Establecemos la perspectiva */
+    perspective: 500px;
+    /* Añadimos transiciones para animar el efecto */
+    transition: transform 0.5s ease;
+}
+
+/* Efecto al pasar el mouse por encima */
+.júpiter:hover {
+  /* Aplicamos la rotación 3D en el eje Y */
+  transform: rotateY(45deg);
+}
+
+.supernovas {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: #5c0139;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fronteras {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: magenta;
+    text-shadow: 0 0 5px #0011ff, 0 0 10px #5900ff, 0 0 20px #ff00ff;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.energías {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 5px #ffee00, 0 0 10px #ff5e00, 0 0 20px #ff0000;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.luna {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: lightslategrey;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.neutrones {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: salmon;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.solar_del_hubble {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: rgb(55, 0, 255);
+    text-shadow: 0 0 5px #ffee00, 0 0 10px #ff5e00, 0 0 20px #b3ff00;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.enanas_blancas {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: darkorchid;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.saturno {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: rgba(0, 242, 250, 0.5);
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.galaxias_espirales {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: blue;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.nebulosas_oscuras {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: #5900ff;
+    text-shadow: 0 0 5px #ff00aa, 0 0 10px #ff00d4, 0 0 20px #ff0055;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.cometas {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: rgb(229, 255, 0);
+    text-shadow: 0 0 5px #ffe600, 0 0 10px #ff5e00, 0 0 20px #ff0000;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.mercurio {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: cadetblue;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.galaxias_activas {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: rgb(0, 140, 255);
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.nebulosas_brillantes {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: yellow;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.neptuno {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: rgb(0, 162, 255);
+    text-shadow: 0 0 5px #ffee00, 0 0 10px #0044ff, 0 0 20px #ff00bf;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.asteroides {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: rgb(0, 26, 255);
+    text-shadow: 0 0 5px #ffee00, 0 0 10px #00e1ff, 0 0 20px #ff00b3;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.estrellas_jóvenes {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: rgb(255, 0, 170);
+    text-shadow: 0 0 5px #ffee00, 0 0 10px #ae00ff, 0 0 20px #ea00ff;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.plutón {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: rgb(0, 102, 255);
+    text-shadow: 0 0 5px #00ff40, 0 0 10px #2bff00, 0 0 20px #d0ff00;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.estelares {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 5px #ffee00, 0 0 10px #ff1100, 0 0 20px #ff0000;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.estrellas_binarias {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: #5900ff;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.meteoroides {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 5px #ffee00, 0 0 10px #e5ff00, 0 0 20px #bbff00;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.estrellas_variables {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: rgb(55, 0, 255);
+    text-shadow: 0 0 5px #00aeff, 0 0 10px #008cff, 0 0 20px #00b7ff;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.satélites_de_júpiter {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: brown;
+    text-shadow: 0 0 5px #ff009d, 0 0 10px #ff0077, 0 0 20px #00b7ff;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.galaxias_elípticas {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: rgb(55, 34, 114);
+    text-shadow: 0 0 5px #d9ff00, 0 0 10px #e5ff00, 0 0 20px #00b7ff;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.sátelites_de_saturno {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: rgb(111, 0, 255);
+    text-shadow: 0 0 5px #ff009d, 0 0 10px #ff0077, 0 0 20px #00b7ff;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.tierra {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200%;
+    color: darkblue;
+
+    position: relative;
+    display: inline-block;
+}
+
+.tierra::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background-color: #002fff;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.tierra:hover::after {
+  transform: scaleX(1);
+}
+
+/* Agrega estilos para el contenedor de la imagen */
+.efecto {
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    font-size: smaller;
+    background-color: #666666;
+    color: #030303;
+    text-align: center;
+    padding: 5px; 
+  }
+
+  /*IMG*/
+
+  .animacion {
+    display: block;
+    margin: 0 auto;
+    width: 200px; /* Tamaño inicial */
+    transform: rotate(-90deg) scale(1); /* Aplica rotación y tamaño inicial */
+    transition: transform 1s ease; /* Transición suave para la animación */
+  }
+  
+  /* Cambio de tamaño con animación */
+  @keyframes zoomIn {
+    from {
+      transform: rotate(-90deg) scale(1);
+    }
+    to {
+      transform: rotate(-90deg) scale(2); /* Conserva la rotación y duplica el tamaño */
+    }
+  }
+  
+  .animacion:hover {
+    animation: zoomIn 1s forwards; /* La animación se ejecuta al pasar el cursor por encima */
+  }
+
+  .img-marte {
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    box-shadow: 0px 0px 15px 15px #ec931e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ecab1e;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+
+/*.img-marte:hover{
+  display: block;
+  margin: 0 auto;
+  border-radius:100%;
+  -webkit-border-radius:100%;
+  box-shadow: 0px 0px 15px 15px #ec931e;
+  -webkit-box-shadow: 0px 0px 15px 15px #ecab1e;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  }*/
+
+.img {
+  display: block;
+  margin: 0 auto;
+  width: 350px;
+  height: 550px;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  overflow: hidden; /* Para recortar la imagen si se sale del contenedor */
+}
+
+.img:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;}
+
+.imagen {
+  display: block;
+  margin: 0 auto;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  overflow: hidden; /* Para recortar la imagen si se sale del contenedor */
+}
